@@ -1,0 +1,1725 @@
+{
+  "models": {
+    "qwen": {
+      "field_accuracy": 0.8867,
+      "doc_accuracy": 0.8,
+      "total_time": 119.951,
+      "errors": 0,
+      "documents": [
+        {
+          "image": "cin_front_001.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 7.993,
+          "accuracy": 0.9714,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.8571
+          },
+          "extracted": {
+            "numero_cin": "07053757",
+            "nom": "حمدي",
+            "prenom": "منذر بن عبد اللطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الجريبة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "07053757",
+            "nom": "حمدي",
+            "prenom": "منذر بن عبد اللطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_002.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 7.07,
+          "accuracy": 0.9714,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.8571,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "09013342",
+            "nom": "الهاجري",
+            "prenom": "محمد وسيم بن ابراهيم بن بوعلاق",
+            "date_naissance": "1990-08-15",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "09013342",
+            "nom": "الماجري",
+            "prenom": "محمد وسيم بن ابراهيم بن بوعلاق",
+            "date_naissance": "1990-08-15",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_003.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 7.467,
+          "accuracy": 0.9573,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 0.9293,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.8571
+          },
+          "extracted": {
+            "numero_cin": "00251219",
+            "nom": "ماجري",
+            "prenom": "دزيرية بنت بوعلاق بن عمر أرملة محمد الثلجي الماجري",
+            "date_naissance": "1951-07-01",
+            "lieu_naissance": "الجريبة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "00251219",
+            "nom": "ماجري",
+            "prenom": "دزيرية بنت بوعلاق بن عمرارملة محمد الناجي الماجري",
+            "date_naissance": "1951-07-01",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_004.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 7.092,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبد الحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبد الحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_005.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 5.879,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "07089847",
+            "nom": "حمدي",
+            "prenom": "نسيمة بنت عبد اللطيف بن بلقاسم",
+            "date_naissance": "1980-10-22",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "07089847",
+            "nom": "حمدي",
+            "prenom": "نسيمة بنت عبد اللطيف بن بلقاسم",
+            "date_naissance": "1980-10-22",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_006.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 4.245,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance": "1982-01-15",
+            "lieu_naissance": "المهدية",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance": "1982-01-15",
+            "lieu_naissance": "المهدية"
+          }
+        },
+        {
+          "image": "cin_front_007.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 4.054,
+          "accuracy": 0.5667,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.1667,
+            "prenom": 0.6667,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "14006637",
+            "nom": "احمد",
+            "prenom": "الدوس بن المبروك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "جمال",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "14006637",
+            "nom": "بن حوالة",
+            "prenom": "احمد بن فتحي بن المبروك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_008.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 4.713,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "05814306",
+            "nom": "جماعي",
+            "prenom": "زينب بنت محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "05814306",
+            "nom": "جماعي",
+            "prenom": "زينب بنت محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس"
+          }
+        },
+        {
+          "image": "cin_front_009.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 3.504,
+          "accuracy": 0.9695,
+          "field_scores": {
+            "nom": 1.0,
+            "prenom": 0.878,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "00000000",
+            "nom": "قادري",
+            "prenom": "حمرة بنت خميس بن عياد",
+            "date_naissance": "1997-06-11",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "",
+            "nom": "قادري",
+            "prenom": "حمزة بن خميس بن عباد",
+            "date_naissance": "1997-06-11",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_010.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 6.146,
+          "accuracy": 0.8702,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.8333,
+            "prenom": 0.8511,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.6667
+          },
+          "extracted": {
+            "numero_cin": "12621583",
+            "nom": "سويققي",
+            "prenom": "بنت البراهيم بن خذيري",
+            "date_naissance": "1992-08-23",
+            "lieu_naissance": "داللة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "12621583",
+            "nom": "سوبيقي",
+            "prenom": "دليلة بنت ابراهيم بن خذيري",
+            "date_naissance": "1992-08-23",
+            "lieu_naissance": "تالة"
+          }
+        },
+        {
+          "image": "cin_back_001.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 5.976,
+          "accuracy": 0.9864,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.9318,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "تراكي بنت بوعلاق",
+            "profession": "مستكتب بشركة",
+            "adresse": "البساتين عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "تراكي بنت بوعلاق",
+            "profession": "مستكتب بشركة",
+            "adresse": "اقامة البساتين عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922"
+          }
+        },
+        {
+          "image": "cin_back_002.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 7.654,
+          "accuracy": 0.9418,
+          "field_scores": {
+            "nom_mere": 0.9091,
+            "profession": 1.0,
+            "adresse": 0.8,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "وحيدة بغدقة",
+            "profession": "عامل يومي",
+            "adresse": "اقامة بانوراميس عمارة 1 المنزه 7 شقة ب 51 اريانة",
+            "date_emission": "2019-04-01",
+            "numero_registre": "17136336",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "وحيدة بندقة",
+            "profession": "عامل يومي",
+            "adresse": "اقامة بانواميس عمارة 1 شقة ب 51 المنزه 7 اريانة",
+            "date_emission": "2019-04-01",
+            "numero_registre": "17136336"
+          }
+        },
+        {
+          "image": "cin_back_003.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 6.807,
+          "accuracy": 0.9602,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 0.9091,
+            "adresse": 0.8919,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "توزر الماجري",
+            "profession": "لاشيء",
+            "adresse": "نهج الرفق 268 المدينة الجديدة بن عروس",
+            "date_emission": "2001-12-03",
+            "numero_registre": "05970858",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "توزر الماجري",
+            "profession": "لا شيء",
+            "adresse": "268 نهج الرفق المدينة الجديدة بن عروس",
+            "date_emission": "2001-12-03",
+            "numero_registre": "05970858"
+          }
+        },
+        {
+          "image": "cin_back_004.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 10.284,
+          "accuracy": 0.9306,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.6531,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "حليمة بن احمد",
+            "profession": "فني بشركة",
+            "adresse": "نهج 59 جيل الجلود 9260",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "حليمة بن احمد",
+            "profession": "فني بشركة",
+            "adresse": "59 نهج 9260 جبل الجلود تونس",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341"
+          }
+        },
+        {
+          "image": "cin_back_005.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 7.383,
+          "accuracy": 0.95,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.75,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "تراكي الماجري",
+            "profession": "لاشيء",
+            "adresse": "العنوان عمارة 21 شقة 52 المروج 1",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "تراكي الماجري",
+            "profession": "لاشيء",
+            "adresse": "عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218"
+          }
+        },
+        {
+          "image": "cin_back_006.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 6.986,
+          "accuracy": 0.9435,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 0.9091,
+            "adresse": 0.8085,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لاشيء",
+            "adresse": "نهج فتح الله 9170 نهج 2",
+            "date_emission": "2014-11-12",
+            "numero_registre": "14021958",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لا شيء",
+            "adresse": "2 نهج فتح الله 9170 تونس",
+            "date_emission": "2014-11-12",
+            "numero_registre": "14021958"
+          }
+        },
+        {
+          "image": "cin_back_007.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 4.995,
+          "accuracy": 0.9191,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.5957,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "نهج فتح الله 9170 نهج 2",
+            "date_emission": "2014-11-14",
+            "numero_registre": "14026246",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "2 نهج 9170 فتح الله تونس",
+            "date_emission": "2014-11-14",
+            "numero_registre": "14026246"
+          }
+        },
+        {
+          "image": "cin_back_008.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 4.006,
+          "accuracy": 0.6053,
+          "field_scores": {
+            "nom_mere": 0.6512,
+            "profession": 0.1905,
+            "adresse": 0.5797,
+            "date_emission": 1.0
+          },
+          "extracted": {
+            "nom_mere": "الحبيب الماكنتي بنت",
+            "profession": "لاشيء",
+            "adresse": "نهج خاص تلعبيد شارع 14 جانفي 164 تونس",
+            "date_emission": "2017-09-14",
+            "numero_registre": "15925880",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "منيرة بنت الحبيب الماكني",
+            "profession": "تلميذة بمعهد خاص",
+            "adresse": "164 شارع 14 جانفي سيدي حسين تونس",
+            "date_emission": "2017-09-14",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_009.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 3.502,
+          "accuracy": 0.4282,
+          "field_scores": {
+            "nom_mere": 0.3704,
+            "profession": 0.2857,
+            "adresse": 0.1569,
+            "date_emission": 0.9
+          },
+          "extracted": {
+            "nom_mere": "فلانة بنت فلان",
+            "profession": "لاشيء",
+            "adresse": "نهج فلان رقم 00 حي فلان تونس",
+            "date_emission": "1994-06-03",
+            "numero_registre": "00638629",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "فطيمة العيادي",
+            "profession": "عامل يومي",
+            "adresse": "الحبيبية الجديدة اريانة",
+            "date_emission": "1994-06-13",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_010.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 4.194,
+          "accuracy": 0.7619,
+          "field_scores": {
+            "nom_mere": 0.8571,
+            "profession": 1.0,
+            "adresse": 0.1905,
+            "date_emission": 1.0
+          },
+          "extracted": {
+            "nom_mere": "الزهراء بنت الهادي",
+            "profession": "عامل يومي",
+            "adresse": "نهج فلان رقم 00 حي فلان تونس",
+            "date_emission": "2012-09-05",
+            "numero_registre": "12345678",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "فاطمة الزهراء بنت الهادي",
+            "profession": "عامل يومي",
+            "adresse": "حي السرور قفصة",
+            "date_emission": "2012-09-05",
+            "numero_registre": "?"
+          }
+        }
+      ]
+    },
+    "groq": {
+      "field_accuracy": 0.8882,
+      "doc_accuracy": 0.7,
+      "total_time": 81.459,
+      "errors": 0,
+      "documents": [
+        {
+          "image": "cin_front_001.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 2.653,
+          "accuracy": 0.9778,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.8889,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "07053757",
+            "nom": "حمـدي",
+            "prenom": "منذر بن عبد اللطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الجريصة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "07053757",
+            "nom": "حمدي",
+            "prenom": "منذر بن عبد اللطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_002.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 1.992,
+          "accuracy": 0.9502,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.8,
+            "prenom": 0.9508,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "09013342",
+            "nom": "الإعاجري",
+            "prenom": "محمد وسيم بن إبراهيم بن بو علاق",
+            "date_naissance": "1990-08-15",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "09013342",
+            "nom": "الماجري",
+            "prenom": "محمد وسيم بن ابراهيم بن بوعلاق",
+            "date_naissance": "1990-08-15",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_003.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 1.174,
+          "accuracy": 0.9837,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 0.9184,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "00251219",
+            "nom": "ماجري",
+            "prenom": "دزيرية بنت بو علاق بن عمر أرملة محمد ثلجي الماجري",
+            "date_naissance": "1951-07-01",
+            "lieu_naissance": "الجريصة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "00251219",
+            "nom": "ماجري",
+            "prenom": "دزيرية بنت بوعلاق بن عمرارملة محمد الناجي الماجري",
+            "date_naissance": "1951-07-01",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_004.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 3.103,
+          "accuracy": 0.9959,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 0.9796,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبدالحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبد الحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_005.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 2.179,
+          "accuracy": 0.7905,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.6667,
+            "prenom": 0.2857,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "07089847",
+            "nom": "خميدي",
+            "prenom": "نسيمة",
+            "date_naissance": "1980-10-22",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "07089847",
+            "nom": "حمدي",
+            "prenom": "نسيمة بنت عبد اللطيف بن بلقاسم",
+            "date_naissance": "1980-10-22",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_006.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 0.77,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance": "1982-01-15",
+            "lieu_naissance": "المهدية",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance": "1982-01-15",
+            "lieu_naissance": "المهدية"
+          }
+        },
+        {
+          "image": "cin_front_007.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 0.495,
+          "accuracy": 0.7617,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.875,
+            "prenom": 0.9333,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "14006637",
+            "nom": "بن حوالى",
+            "prenom": "أحمد بن فتحي بن المبرك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "جمام",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "14006637",
+            "nom": "بن حوالة",
+            "prenom": "احمد بن فتحي بن المبروك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_008.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 0.674,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "05814306",
+            "nom": "جماعي",
+            "prenom": "زينب بنت محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "05814306",
+            "nom": "جماعي",
+            "prenom": "زينب بنت محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس"
+          }
+        },
+        {
+          "image": "cin_front_009.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 0.489,
+          "accuracy": 0.7,
+          "field_scores": {
+            "nom": 1.0,
+            "prenom": 0.8,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "?",
+            "nom": "قادري",
+            "prenom": "سليم حمزة بن خليس بن عياد",
+            "date_naissance": "1997-06-11",
+            "lieu_naissance": "?",
+            "champs_manquants": [
+              "numero_cin",
+              "lieu_naissance"
+            ]
+          },
+          "expected": {
+            "numero_cin": "",
+            "nom": "قادري",
+            "prenom": "حمزة بن خميس بن عباد",
+            "date_naissance": "1997-06-11",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_010.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 1.42,
+          "accuracy": 0.9378,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.7692,
+            "prenom": 0.92,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "12621583",
+            "nom": "سو يبقي",
+            "prenom": "دلة بنت ابراهيم بن خير ي",
+            "date_naissance": "1992-08-23",
+            "lieu_naissance": "تالة",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "12621583",
+            "nom": "سوبيقي",
+            "prenom": "دليلة بنت ابراهيم بن خذيري",
+            "date_naissance": "1992-08-23",
+            "lieu_naissance": "تالة"
+          }
+        },
+        {
+          "image": "cin_back_001.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 8.559,
+          "accuracy": 0.9978,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.9892,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "تراكي بنت بوعلاق",
+            "profession": "مستكتب بشركة",
+            "adresse": "اقامة البساتين عمارة21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "تراكي بنت بوعلاق",
+            "profession": "مستكتب بشركة",
+            "adresse": "اقامة البساتين عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922"
+          }
+        },
+        {
+          "image": "cin_back_002.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 6.249,
+          "accuracy": 0.987,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.9348,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "وحيدة بندقة",
+            "profession": "عامل يومي",
+            "adresse": "اقامة بانوراميس عمارقة شقة 51 المنزه 7 اريانة",
+            "date_emission": "2019-04-01",
+            "numero_registre": "17136336",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "وحيدة بندقة",
+            "profession": "عامل يومي",
+            "adresse": "اقامة بانواميس عمارة 1 شقة ب 51 المنزه 7 اريانة",
+            "date_emission": "2019-04-01",
+            "numero_registre": "17136336"
+          }
+        },
+        {
+          "image": "cin_back_003.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 7.323,
+          "accuracy": 0.7818,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 0.9091,
+            "adresse": 1.0,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "لاشيء",
+            "adresse": "268 نهج الرفق المدينة الجديدة بن عروس",
+            "date_emission": "2001-12-03",
+            "numero_registre": "05970858",
+            "champs_manquants": [
+              "nom_mere"
+            ]
+          },
+          "expected": {
+            "nom_mere": "توزر الماجري",
+            "profession": "لا شيء",
+            "adresse": "268 نهج الرفق المدينة الجديدة بن عروس",
+            "date_emission": "2001-12-03",
+            "numero_registre": "05970858"
+          }
+        },
+        {
+          "image": "cin_back_004.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 7.472,
+          "accuracy": 0.9396,
+          "field_scores": {
+            "nom_mere": 0.8,
+            "profession": 1.0,
+            "adresse": 0.898,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "حميه بن احمد",
+            "profession": "فني بشركة",
+            "adresse": "59 نهج 9260 جبل الجلود",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "حليمة بن احمد",
+            "profession": "فني بشركة",
+            "adresse": "59 نهج 9260 جبل الجلود تونس",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341"
+          }
+        },
+        {
+          "image": "cin_back_005.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 6.8,
+          "accuracy": 0.956,
+          "field_scores": {
+            "nom_mere": 0.9231,
+            "profession": 1.0,
+            "adresse": 0.8571,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "تواكي الماجري",
+            "profession": "لاشيء",
+            "adresse": "عمارة 21 شقة 52 المروج 1",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "تراكي الماجري",
+            "profession": "لاشيء",
+            "adresse": "عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218"
+          }
+        },
+        {
+          "image": "cin_back_006.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 6.417,
+          "accuracy": 0.9121,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 0.9091,
+            "adresse": 0.6512,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لاشيء",
+            "adresse": "2 نهج 9170 فتح الله",
+            "date_emission": "2014-11-12",
+            "numero_registre": "14021958",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لا شيء",
+            "adresse": "2 نهج فتح الله 9170 تونس",
+            "date_emission": "2014-11-12",
+            "numero_registre": "14021958"
+          }
+        },
+        {
+          "image": "cin_back_007.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 7.142,
+          "accuracy": 0.9767,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.8837,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "2 نهج 9170 فتح الله",
+            "date_emission": "2014-11-14",
+            "numero_registre": "14026246",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "2 نهج 9170 فتح الله تونس",
+            "date_emission": "2014-11-14",
+            "numero_registre": "14026246"
+          }
+        },
+        {
+          "image": "cin_back_008.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 5.814,
+          "accuracy": 0.7396,
+          "field_scores": {
+            "nom_mere": 0.9583,
+            "profession": 0.0,
+            "adresse": 1.0,
+            "date_emission": 1.0
+          },
+          "extracted": {
+            "nom_mere": "منورة بنت الحبيب الماكني",
+            "profession": "?",
+            "adresse": "164 شارع 14 جانفي سيدي حسين تونس",
+            "date_emission": "2017-09-14",
+            "numero_registre": "15925880",
+            "champs_manquants": [
+              "profession"
+            ]
+          },
+          "expected": {
+            "nom_mere": "منيرة بنت الحبيب الماكني",
+            "profession": "تلميذة بمعهد خاص",
+            "adresse": "164 شارع 14 جانفي سيدي حسين تونس",
+            "date_emission": "2017-09-14",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_009.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 5.976,
+          "accuracy": 0.475,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 1.0,
+            "adresse": 0.0,
+            "date_emission": 0.9
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "عامل يومي",
+            "adresse": "?",
+            "date_emission": "1994-06-03",
+            "numero_registre": "00639829",
+            "champs_manquants": [
+              "nom_mere",
+              "adresse"
+            ]
+          },
+          "expected": {
+            "nom_mere": "فطيمة العيادي",
+            "profession": "عامل يومي",
+            "adresse": "الحبيبية الجديدة اريانة",
+            "date_emission": "1994-06-13",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_010.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 4.756,
+          "accuracy": 0.9,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.6,
+            "date_emission": 1.0
+          },
+          "extracted": {
+            "nom_mere": "فاطمة الزهراء بنت الهادي",
+            "profession": "عامل يومي",
+            "adresse": "المحطة حي السرور",
+            "date_emission": "2012-09-05",
+            "numero_registre": "12687843",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "فاطمة الزهراء بنت الهادي",
+            "profession": "عامل يومي",
+            "adresse": "حي السرور قفصة",
+            "date_emission": "2012-09-05",
+            "numero_registre": "?"
+          }
+        }
+      ]
+    },
+    "paddleocr": {
+      "field_accuracy": 0.5902,
+      "doc_accuracy": 0.15,
+      "total_time": 1096.127,
+      "errors": 1,
+      "documents": [
+        {
+          "image": "cin_front_001.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 32.028,
+          "accuracy": 0.8286,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.75,
+            "prenom": 0.9643,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.4286
+          },
+          "extracted": {
+            "numero_cin": "07053757",
+            "nom": "حمدى",
+            "prenom": "منذر بن عبد الاطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الخنايا",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "07053757",
+            "nom": "حمدي",
+            "prenom": "منذر بن عبد اللطيف بن بلقاسم",
+            "date_naissance": "1977-07-08",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_002.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 57.005,
+          "accuracy": 0.2,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.0,
+            "prenom": 0.0,
+            "date_naissance": 0.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "09013342",
+            "nom": "?",
+            "prenom": "?",
+            "date_naissance": "?",
+            "lieu_naissance": "?",
+            "champs_manquants": [
+              "nom",
+              "prenom",
+              "date_naissance",
+              "lieu_naissance"
+            ]
+          },
+          "expected": {
+            "numero_cin": "09013342",
+            "nom": "الماجري",
+            "prenom": "محمد وسيم بن ابراهيم بن بوعلاق",
+            "date_naissance": "1990-08-15",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_003.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 40.935,
+          "accuracy": 0.6896,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.9091,
+            "prenom": 0.9388,
+            "date_naissance": 0.6,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "00251219",
+            "nom": "ما جري",
+            "prenom": "دزيرية بنت بوعلاق بن عمر رملة محمد الثلجي الماجري",
+            "date_naissance": "????-07-01",
+            "lieu_naissance": "?",
+            "champs_manquants": [
+              "date_naissance",
+              "lieu_naissance"
+            ]
+          },
+          "expected": {
+            "numero_cin": "00251219",
+            "nom": "ماجري",
+            "prenom": "دزيرية بنت بوعلاق بن عمرارملة محمد الناجي الماجري",
+            "date_naissance": "1951-07-01",
+            "lieu_naissance": "الجريصة"
+          }
+        },
+        {
+          "image": "cin_front_004.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 169.116,
+          "accuracy": 1.0,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبد الحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "00179500",
+            "nom": "خالد",
+            "prenom": "عبد الحكيم بن عمر بن محمد",
+            "date_naissance": "1960-04-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_005.png",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 182.248,
+          "accuracy": 0.0,
+          "error": "PaddleOCR API returned no text"
+        },
+        {
+          "image": "cin_front_006.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 14.835,
+          "accuracy": 0.8,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 1.0,
+            "prenom": 1.0,
+            "date_naissance": 0.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance:": "1982-01-15",
+            "lieu_naissance": "المهدية",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "08660757",
+            "nom": "الوزير",
+            "prenom": "محمد علي بن الهادي بن علي",
+            "date_naissance": "1982-01-15",
+            "lieu_naissance": "المهدية"
+          }
+        },
+        {
+          "image": "cin_front_007.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 13.953,
+          "accuracy": 0.6339,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.3333,
+            "prenom": 0.8364,
+            "date_naissance": 1.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "14006637",
+            "nom": "السف",
+            "prenom": "بن حوالق احمد بن فتحي بن المبروك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "عقابا جمال",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "14006637",
+            "nom": "بن حوالة",
+            "prenom": "احمد بن فتحي بن المبروك",
+            "date_naissance": "2001-08-27",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_008.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 14.264,
+          "accuracy": 0.7633,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.0,
+            "prenom": 0.8163,
+            "date_naissance": 1.0,
+            "lieu_naissance": 1.0
+          },
+          "extracted": {
+            "numero_cin": "05814306",
+            "nom": "بنت",
+            "prenom": "محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس",
+            "champs_manquants": []
+          },
+          "expected": {
+            "numero_cin": "05814306",
+            "nom": "جماعي",
+            "prenom": "زينب بنت محمد لخضر بن التجاني",
+            "date_naissance": "1970-06-23",
+            "lieu_naissance": "قابس"
+          }
+        },
+        {
+          "image": "cin_front_009.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 3.069,
+          "accuracy": 0.6898,
+          "field_scores": {
+            "nom": 0.9091,
+            "prenom": 0.95,
+            "date_naissance": 0.9,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "?",
+            "nom": "قادر ي",
+            "prenom": "حمزة بن خميس بن عياد",
+            "date_naissance": "1997-06-01",
+            "lieu_naissance": "?",
+            "champs_manquants": [
+              "numero_cin",
+              "lieu_naissance"
+            ]
+          },
+          "expected": {
+            "numero_cin": "",
+            "nom": "قادري",
+            "prenom": "حمزة بن خميس بن عباد",
+            "date_naissance": "1997-06-11",
+            "lieu_naissance": "تونس"
+          }
+        },
+        {
+          "image": "cin_front_010.jpg",
+          "doc_type": "CIN_FRONT",
+          "elapsed": 10.868,
+          "accuracy": 0.2,
+          "field_scores": {
+            "numero_cin": 1.0,
+            "nom": 0.0,
+            "prenom": 0.0,
+            "date_naissance": 0.0,
+            "lieu_naissance": 0.0
+          },
+          "extracted": {
+            "numero_cin": "12621583",
+            "nom": "?",
+            "prenom": "?",
+            "date_naissance": "?",
+            "lieu_naissance": "?",
+            "champs_manquants": [
+              "nom",
+              "prenom",
+              "date_naissance",
+              "lieu_naissance"
+            ]
+          },
+          "expected": {
+            "numero_cin": "12621583",
+            "nom": "سوبيقي",
+            "prenom": "دليلة بنت ابراهيم بن خذيري",
+            "date_naissance": "1992-08-23",
+            "lieu_naissance": "تالة"
+          }
+        },
+        {
+          "image": "cin_back_001.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 20.896,
+          "accuracy": 0.8,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 1.0,
+            "adresse": 1.0,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "مستكتب بشركة",
+            "adresse": "اقامة البساتين عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922",
+            "champs_manquants": [
+              "nom_mere"
+            ]
+          },
+          "expected": {
+            "nom_mere": "تراكي بنت بوعلاق",
+            "profession": "مستكتب بشركة",
+            "adresse": "اقامة البساتين عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2017-09-06",
+            "numero_registre": "15902922"
+          }
+        },
+        {
+          "image": "cin_back_002.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 119.9,
+          "accuracy": 0.9406,
+          "field_scores": {
+            "nom_mere": 0.9091,
+            "profession": 1.0,
+            "adresse": 0.9053,
+            "date_emission": 0.8889,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "وحيدة بغدقة",
+            "profession": "عامل يومي",
+            "adresse": "اواقة بانوراميس عمارة شقة بـ 51 المنزّه 7 اريانة",
+            "date_emission": "01-04-01",
+            "numero_registre": "17136336",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "وحيدة بندقة",
+            "profession": "عامل يومي",
+            "adresse": "اقامة بانواميس عمارة 1 شقة ب 51 المنزه 7 اريانة",
+            "date_emission": "2019-04-01",
+            "numero_registre": "17136336"
+          }
+        },
+        {
+          "image": "cin_back_003.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 52.988,
+          "accuracy": 0.8967,
+          "field_scores": {
+            "nom_mere": 0.7742,
+            "profession": 0.9091,
+            "adresse": 1.0,
+            "date_emission": 0.8,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "يقبلزم توزر الماجري",
+            "profession": "لاشيء",
+            "adresse": "268 نهج الرفق المدينة الجديدة بن عروس",
+            "date_emission": "2003-12-01",
+            "numero_registre": "05970858",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "توزر الماجري",
+            "profession": "لا شيء",
+            "adresse": "268 نهج الرفق المدينة الجديدة بن عروس",
+            "date_emission": "2001-12-03",
+            "numero_registre": "05970858"
+          }
+        },
+        {
+          "image": "cin_back_004.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 176.484,
+          "accuracy": 0.5962,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 0.0,
+            "adresse": 0.9811,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "?",
+            "adresse": "59 نهج 926 جبل الجلود تونس",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341",
+            "champs_manquants": [
+              "nom_mere",
+              "profession"
+            ]
+          },
+          "expected": {
+            "nom_mere": "حليمة بن احمد",
+            "profession": "فني بشركة",
+            "adresse": "59 نهج 9260 جبل الجلود تونس",
+            "date_emission": "2010-05-14",
+            "numero_registre": "11106341"
+          }
+        },
+        {
+          "image": "cin_back_005.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 38.698,
+          "accuracy": 0.7001,
+          "field_scores": {
+            "nom_mere": 0.4,
+            "profession": 0.2857,
+            "adresse": 0.8148,
+            "date_emission": 1.0,
+            "numero_registre": 1.0
+          },
+          "extracted": {
+            "nom_mere": "المنة الأشفي",
+            "profession": "ال",
+            "adresse": "عمارة 21 شقة 52 المروج",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218",
+            "champs_manquants": []
+          },
+          "expected": {
+            "nom_mere": "تراكي الماجري",
+            "profession": "لاشيء",
+            "adresse": "عمارة 21 شقة 52 المروج 1 بن عروس",
+            "date_emission": "2000-03-21",
+            "numero_registre": "04798218"
+          }
+        },
+        {
+          "image": "cin_back_006.png",
+          "doc_type": "CIN_BACK",
+          "elapsed": 99.639,
+          "accuracy": 0.7056,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 0.9091,
+            "adresse": 0.619,
+            "date_emission": 1.0,
+            "numero_registre": 0.0
+          },
+          "extracted": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لاشيء",
+            "adresse": "2 نجع 170 فتح الله",
+            "date_emission": "2014-11-12",
+            "numero_registre": "?",
+            "champs_manquants": [
+              "numero_registre"
+            ]
+          },
+          "expected": {
+            "nom_mere": "شاذلية الماجري",
+            "profession": "لا شيء",
+            "adresse": "2 نهج فتح الله 9170 تونس",
+            "date_emission": "2014-11-12",
+            "numero_registre": "14021958"
+          }
+        },
+        {
+          "image": "cin_back_007.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 39.917,
+          "accuracy": 0.7767,
+          "field_scores": {
+            "nom_mere": 1.0,
+            "profession": 1.0,
+            "adresse": 0.8837,
+            "date_emission": 1.0,
+            "numero_registre": 0.0
+          },
+          "extracted": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "2 نهج 9170 فتح الله",
+            "date_emission": "2014-11-14",
+            "numero_registre": "?",
+            "champs_manquants": [
+              "numero_registre"
+            ]
+          },
+          "expected": {
+            "nom_mere": "فاطمة الماجري",
+            "profession": "عامل يومي",
+            "adresse": "2 نهج 9170 فتح الله تونس",
+            "date_emission": "2014-11-14",
+            "numero_registre": "14026246"
+          }
+        },
+        {
+          "image": "cin_back_008.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 3.675,
+          "accuracy": 0.5837,
+          "field_scores": {
+            "nom_mere": 0.8,
+            "profession": 0.2609,
+            "adresse": 0.5741,
+            "date_emission": 0.7
+          },
+          "extracted": {
+            "nom_mere": "منيرة بنت الحبيب",
+            "profession": "الماكني",
+            "adresse": "النفة تلعبين بمعهد خاص الصراع 14 شارع 14 جانفي سيدي حسين تونس رزيد 14 سبتمبر",
+            "date_emission": "1970-01-14",
+            "numero_registre": "?",
+            "champs_manquants": [
+              "numero_registre"
+            ]
+          },
+          "expected": {
+            "nom_mere": "منيرة بنت الحبيب الماكني",
+            "profession": "تلميذة بمعهد خاص",
+            "adresse": "164 شارع 14 جانفي سيدي حسين تونس",
+            "date_emission": "2017-09-14",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_009.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 2.76,
+          "accuracy": 0.0,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 0.0,
+            "adresse": 0.0,
+            "date_emission": 0.0
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "?",
+            "adresse": "?",
+            "date_emission": "?",
+            "numero_registre": "?",
+            "champs_manquants": [
+              "nom_mere",
+              "profession",
+              "adresse",
+              "date_emission",
+              "numero_registre"
+            ]
+          },
+          "expected": {
+            "nom_mere": "فطيمة العيادي",
+            "profession": "عامل يومي",
+            "adresse": "الحبيبية الجديدة اريانة",
+            "date_emission": "1994-06-13",
+            "numero_registre": "?"
+          }
+        },
+        {
+          "image": "cin_back_010.jpg",
+          "doc_type": "CIN_BACK",
+          "elapsed": 2.848,
+          "accuracy": 0.0,
+          "field_scores": {
+            "nom_mere": 0.0,
+            "profession": 0.0,
+            "adresse": 0.0,
+            "date_emission": 0.0
+          },
+          "extracted": {
+            "nom_mere": "?",
+            "profession": "?",
+            "adresse": "?",
+            "date_emission": "?",
+            "numero_registre": "?",
+            "champs_manquants": [
+              "nom_mere",
+              "profession",
+              "adresse",
+              "date_emission",
+              "numero_registre"
+            ]
+          },
+          "expected": {
+            "nom_mere": "فاطمة الزهراء بنت الهادي",
+            "profession": "عامل يومي",
+            "adresse": "حي السرور قفصة",
+            "date_emission": "2012-09-05",
+            "numero_registre": "?"
+          }
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-05-19 15:24:23 UTC"
+}

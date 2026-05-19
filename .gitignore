@@ -1,0 +1,41 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Runtime — generated at execution
+data/
+output/
+logs/
+test_results/
+
+# Benchmark — track final results, ignore ephemeral/large files
+benchmark_output/benchmark_log.jsonl
+benchmark_output/benchmark_results_detailed.csv
+
+# Test dataset — images and ground truth contain personal data
+test_dataset/*
+!test_dataset/.gitkeep
+
+# Stray log files
+*.log
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

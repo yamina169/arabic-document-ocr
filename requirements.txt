@@ -1,0 +1,24 @@
+# ── Web / API ──────────────────────────────────────────────────────────────────
+flask==3.1.0
+flask-cors==5.0.0
+python-dotenv==1.0.1
+werkzeug>=3.0.0
+
+# ── Image processing ───────────────────────────────────────────────────────────
+pillow>=10.0.0
+numpy>=1.26.0
+
+# ── VLM providers ──────────────────────────────────────────────────────────────
+groq>=0.11.0          # Groq Vision — LLaMA 4 Scout
+openai>=1.0.0         # OpenRouter (Qwen2.5-VL-72B) — OpenAI-compatible client
+
+# ── Barcode ────────────────────────────────────────────────────────────────────
+pyzbar>=0.1.9
+opencv-python>=4.5.0
+
+# ── Batch testing ──────────────────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── Benchmark tracking ─────────────────────────────────────────────────────────
+# wandb>=0.17.0         # Weights & Biases — install if using --wandb flag
+# matplotlib>=3.8.0    # Comparison charts — install if using --charts flag

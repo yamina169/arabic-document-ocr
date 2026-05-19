@@ -1,0 +1,4 @@
+model,field_accuracy,doc_accuracy,total_time_s,docs_evaluated,errors,avg_time_per_doc_s
+qwen,0.8867,0.8000,119.95,20,0,6.00
+groq,0.8882,0.7000,81.46,20,0,4.07
+paddleocr,0.5902,0.1500,1096.13,20,1,54.81

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OCR Benchmark Dashboard</title>
+    <link rel="stylesheet" href="/static/dashboard.css" />
+  </head>
+  <body>
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p style="color: #475569; font-size: 13px">Loading benchmark data&hellip;</p>
+    </div>
+
+    <div id="error" style="display: none">
+      <div class="error-box">
+        <h2>Failed to load data</h2>
+        <p id="error-msg" style="margin-bottom: 10px"></p>
+        <p>
+          Make sure the Flask server is running and
+          <code>benchmark_output/all_results.json</code> exists.
+        </p>
+      </div>
+    </div>
+
+    <div id="app" style="display: none"></div>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script src="/static/dashboard.js"></script>
+  </body>
+</html>
